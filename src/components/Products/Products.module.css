@@ -1,0 +1,345 @@
+.filterHeder {
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  border-top: 0.1px solid rgb(228, 227, 227);
+  border-bottom: 0.1px solid rgb(228, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.filterItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.filterText {
+  display: none;
+}
+.filterText:hover{
+  cursor: pointer;
+  color: blue;
+}
+.slideBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.slideBar:hover {
+  color: blue;
+}
+.hideFilterText:hover {
+  color: blue;
+}
+.hideFilterText {
+  text-decoration: underline;
+  color: #888792;
+}
+.itemsCount {
+  font-weight: bold;
+}
+.showFilterText {
+  text-decoration: underline;
+  color: #888792;
+}
+.showFilterText:hover {
+  color: blue;
+}
+.recomendedContainer {
+  width: 170px;
+  height: 180px;
+  background-color: white;
+  padding: 5px;
+  position: absolute;
+  left: 82%;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  box-shadow: -1px 1px 10px -5px #000;
+  border-radius: 5px;
+}
+.recomendedContainer div {
+  margin-top: 8px;
+}
+.recomendedContainer div:hover {
+  cursor: pointer;
+  color: blue;
+}
+.recomendedSelection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.productsandFilterContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.filterItemsContainer {
+  width: 20%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.customizContainer {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  font-weight: bold;
+  border-bottom: 0.1px solid rgb(233, 232, 232);
+  margin-top: 10px;
+}
+.idealForContainer {
+  width: 100%;
+  height: 60px;
+  text-align: start;
+  margin-top: 10px;
+  border-bottom: 0.1px solid rgb(233, 232, 232);
+}
+.idealForContainer1 {
+  width: 100%;
+  height: 60px;
+  text-align: start;
+  margin-top: 10px;
+}
+.idealForText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.idealForText:hover {
+  color: blue;
+}
+.idealForText img {
+  cursor: pointer;
+}
+.idealForDropDownContainer {
+  width: 100%;
+  height: 120px;
+  border-bottom: 0.1px solid rgb(233, 232, 232);
+}
+.unSelectAllText {
+  color: #bfc8cd;
+  text-align: start;
+  margin-top: 5px;
+}
+.men {
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  margin-top: 10px;
+}
+.men:hover {
+  cursor: pointer;
+  color: blue;
+}
+.productsContainer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.productsContainerNew {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  transition: transform 1s;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.cardImgContainer {
+  width: 100%;
+  height: 86%;
+}
+.cardNameContainer {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cardDescriptionContainer {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #888792;
+}
+.cardDescriptionContainer div {
+  overflow: hidden;
+  text-align: start;
+}
+.cardDescriptionContainer img {
+  margin-right: 3px;
+}
+.cardDescriptionContainer img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+@media screen and (max-width: 700px) {
+  .filterText {
+    width: 50%;
+    display: block;
+    font-weight: bold;
+  }
+  .slideBar {
+    width: 50%;
+  }
+  .filterItems {
+    display: none;
+  }
+  .filterHeder {
+    justify-content: center;
+    gap: 200px;
+  }
+  .filterItemsContainer {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+  .productsContainer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .filterHeder {
+    justify-content: center;
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .filterHeder {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .recomendedContainer {
+    left: 80%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .recomendedContainer {
+    left: 78%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .recomendedContainer {
+    left: 76%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .recomendedContainer {
+    left: 74%;
+  }
+  .card {
+    width: 250px;
+    height: 350px;
+  }
+  .cardDescriptionContainer {
+    font-size: 10px;
+  }
+  .cardNameContainer {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .recomendedContainer {
+    left: 70%;
+  }
+  .card {
+    width: 200px;
+    height: 300px;
+  }
+  .cardNameContainer {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .recomendedContainer {
+    left: 67%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .recomendedContainer {
+    left: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .recomendedContainer {
+    left: 53%;
+  }
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+  .cardDescriptionContainer {
+    font-size: 8px;
+  }
+  .cardNameContainer {
+    font-size: 10px;
+  }
+  .cardDescriptionContainer img {
+    width: 10px;
+    height: 10px;
+  }
+  .filterItemsContainer {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .recomendedContainer {
+    left: 48%;
+  }
+  .recomemdedTextSize {
+    font-size: 14px;
+  }
+  .filterText {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .recomendedContainer {
+    left: 40%;
+  }
+  .card {
+    width: 115px;
+  }
+  .cardDescriptionContainer {
+    font-size: 6px;
+  }
+  .cardNameContainer {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .recomendedContainer {
+    left: 35%;
+  }
+}
