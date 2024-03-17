@@ -77,7 +77,7 @@ const Products = () => {
         {text === ele ? (
           <div>
             {" "}
-            <img src={Right} width="20px" height="20px" />
+            <img src={Right} width="20px" height="20px" alt="right-icon"/>
           </div>
         ) : (
           ""
@@ -111,9 +111,9 @@ const Products = () => {
           </div>
           <div onClick={() => handleAddtoCart(index)}>
             {ele.isAdd ? (
-              <img src={heartRed} width="20px" height="20px" alt="heart-icon" />
+              <img src={heartRed} width="20px" height="20px" alt="heartRed" />
             ) : (
-              <img src={heart} width="20px" height="20px" alt="heartRed" />
+              <img src={heart} width="20px" height="20px" alt="heart-icon" />
             )}
           </div>
         </div>

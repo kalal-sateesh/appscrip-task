@@ -140,9 +140,6 @@ const AppFooter = () => {
             <h3>CALL US</h3>
             <div className={styles.mobileCallUs}>
               <div className={styles.mobileEmail}>+44 221 133 5360</div>
-              {/* <div className={styles.mobileEmail}>
-                <img src={star} width="6px" height="6px" alt="dot-image" />
-              </div> */}
               <div className={styles.mobileEmail}>
                 <img
                   src={star}
