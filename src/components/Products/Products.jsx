@@ -91,7 +91,7 @@ const Products = () => {
     return (
       <div key={index} className={styles.card}>
         <div className={styles.cardImgContainer}>
-          <img src={ele.image} width="100%" height="100%" />
+          <img src={ele.image} width="100%" height="100%" alt="Image"/>
         </div>
         <div className={styles.cardNameContainer}>
           <h4>{ele.name}</h4>
