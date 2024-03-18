@@ -13,7 +13,7 @@ import { useState } from "react";
 
 const Products = () => {
   const [data, setData] = useState(productsData);
-  const [isShow, setIsShow] = useState(true);
+  const [isShow, setIsShow] = useState(false);
   const [isRecomended, setisRecomended] = useState(false);
   const [text, setText] = useState("RECOMMENDED");
   const [isDropDown, setIsDropDown] = useState(false);
